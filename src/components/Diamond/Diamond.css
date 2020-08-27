@@ -1,0 +1,20 @@
+.diamond {
+  background-color: #ffcdd2;
+}
+.diamond-img {
+  position: relative;
+  width: 200px;
+  height: 300px;
+}
+
+span:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 50px solid yellow;
+  border-right: 50px solid red;
+  border-bottom: 50px solid blue;
+  border-left: 50px solid darkgreen;
+}
