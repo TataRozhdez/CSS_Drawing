@@ -1,0 +1,37 @@
+.pepsi {
+  background: linear-gradient(180deg, rgba(254,215,219,0.5) 0%, rgba(180,255,252,1) 50%, rgba(254,215,219,0.5) 100%);
+  width: 100vw;
+  height: 430px;
+}
+.pepsi-img {
+  height: 300px;
+  width: 300px;
+  background-color: #34588e;
+  border-radius: 50%;
+  border: 10px solid #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.pepsi-img::before {
+  content: '';
+  position: absolute;
+  height: 400px;
+  width: 500px;
+  border-radius: 25%;
+  background-color: #fff;
+  top: -160px;
+  left: -260px;
+  transform: rotate(-18deg);
+}
+
+.pepsi-img::after {
+  position: absolute;
+  content: '';
+  height: 500px;
+  width: 550px;
+  border-radius: 50%;
+  background-color: #da473c;
+  top: -275px;
+  left: -320px;
+}

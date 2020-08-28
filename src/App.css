@@ -1,11 +1,21 @@
+@font-face {
+  font-family: "Archistico_Bold";
+  src: url("./fonts/Archistico_Bold.ttf");
+}
+
+@font-face {
+  font-family: "BRUSHSTP";
+  src: url("./fonts/AlexBrush-Regular.ttf");
+}
+
 * {
   box-sizing: border-box;
 }
-html,
-h1,
-h2,
-h3,
-p,
+
+html {
+  font-family: "Archistico_Bold", "BRUSHSTP", Arial, Helvetica, sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -19,12 +29,47 @@ a {
 }
 .App {
   overflow-x: hidden;
+  background-color: rgba(254,215,219,0.5);
+}
+
+.header {
+  background-color: #fff;
+}
+
+h1 {
+  font-family: "Archistico_Bold";
+  font-size: 6.25vw;
+}
+
+h2 {
+  font-family: "BRUSHSTP";
+  color: #a089a0;
+  font-size: 2.778vw;
+}
+
+.img-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .block {
-  width: 100vw;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.grid-square-middle {
+  width: 275px;
+  height: 260px;
+  border-radius: 10%;
+  margin-bottom: 5.5vw;
+}
+
+.grid-square {
+  width: 400px;
+  height: 400px;
+  border-radius: 10%;
+  margin-bottom: 5.5vw;
 }

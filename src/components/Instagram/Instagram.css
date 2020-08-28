@@ -1,0 +1,43 @@
+.instagram {
+  /* background-color: #b3e5fc; */
+}
+
+.inst-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 60px;
+  background: radial-gradient(circle at 30% 107%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.isquare {
+  width: 140px;
+  height: 140px;
+  background-color: transparent;
+  border: 12px solid #fff;
+  border-radius: 45px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-big {
+  height: 60px;
+  width: 60px;
+  background-color: transparent;
+  border: 12px solid #fff;
+  border-radius: 50%;
+}
+
+.circle-small {
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
