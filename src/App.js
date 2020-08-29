@@ -26,25 +26,41 @@ function App() {
         <h1>Creative CSS Drawing</h1>
         <h2>Make Art With CSS</h2>
       </div>
-      <div className='img-content'>
+      <div>
         <Envelop />
-        <Diamond />
-        <Coffee />
-        <Camera />
+
+        <div className='main-content-line'>
+          <Diamond />
+          <Coffee />
+          <Camera />
+        </div>
+
         <Pepsi />
-        <Batman />
-        <CaptainAmerica />
-        <Gear />
-        <GitLogo />
-        <Google />
-        <Instagram />
-        <Panda />
-        <Watermelon />
-        <Donut />
-        <Figma /> 
-        <Beaver />
-        <Homer />
-        <Shelf />
+
+        <div className='main-content-line'>
+          <Batman />
+          <Panda />
+          <CaptainAmerica />
+        </div>
+
+        <div className='main-content-line social'>
+          <Instagram />
+          <Figma /> 
+          <GitLogo />
+          <Google />
+        </div>
+{/* sdelat adaptiv seeds */}
+        <div className='main-content-line'>
+          <Donut />
+          <Gear />
+          <Watermelon />
+        </div>        
+
+        <div className='main-content-line'>
+          <Beaver />
+          <Shelf />
+          <Homer />
+        </div>
       </div>
     </div>
   )

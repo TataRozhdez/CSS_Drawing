@@ -1,17 +1,13 @@
-.figma {
-  background-color: #333;
-}
-
 .figma-img {
-  width: 180px;
-  height: 270px;
+  width: 12.500vw;
+  height: 18.750vw;
   display: flex;
   flex-wrap: wrap;
 }
 
 .part {
-  width: 90px;
-  height: 90px;
+  width: 6.250vw;
+  height: 6.250vw;
 }
 
 .part-1 {

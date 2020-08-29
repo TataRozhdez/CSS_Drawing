@@ -1,14 +1,14 @@
 .pepsi {
-  background: linear-gradient(180deg, rgba(254,215,219,0.5) 0%, rgba(180,255,252,1) 50%, rgba(254,215,219,0.5) 100%);
+  background: linear-gradient(180deg, rgba(254,215,219,0.1) 0%, rgba(180,255,252,1) 50%, rgba(254,215,219,0.1) 100%);
   width: 100vw;
-  height: 430px;
+  height: 31.250vw;
 }
 .pepsi-img {
-  height: 300px;
-  width: 300px;
+  height: 20.833vw;
+  width: 20.833vw;
   background-color: #34588e;
   border-radius: 50%;
-  border: 10px solid #fff;
+  border: 0.694vw solid #fff;
   position: relative;
   overflow: hidden;
 }
@@ -16,22 +16,22 @@
 .pepsi-img::before {
   content: '';
   position: absolute;
-  height: 400px;
-  width: 500px;
+  height: 27.778vw;
+  width: 34.722vw;
   border-radius: 25%;
   background-color: #fff;
-  top: -160px;
-  left: -260px;
+  top: -11.111vw;
+  left: -18.056vw;
   transform: rotate(-18deg);
 }
 
 .pepsi-img::after {
   position: absolute;
   content: '';
-  height: 500px;
-  width: 550px;
+  height: 34.722vw;
+  width: 38.194vw;
   border-radius: 50%;
   background-color: #da473c;
-  top: -275px;
-  left: -320px;
+  top: -19.097vw;
+  left: -22.222vw;
 }

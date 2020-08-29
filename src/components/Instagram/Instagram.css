@@ -1,11 +1,7 @@
-.instagram {
-  /* background-color: #b3e5fc; */
-}
-
 .inst-img {
-  height: 200px;
-  width: 200px;
-  border-radius: 60px;
+  height: 13.889vw;
+  width: 13.889vw;
+  border-radius: 4.167vw;
   background: radial-gradient(circle at 30% 107%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
   display: flex;
   align-items: center;
@@ -13,11 +9,11 @@
 }
 
 .isquare {
-  width: 140px;
-  height: 140px;
+  width: 9.722vw;
+  height: 9.722vw;
   background-color: transparent;
-  border: 12px solid #fff;
-  border-radius: 45px;
+  border: 0.833vw solid #fff;
+  border-radius: 3.125vw;
   position: relative;
   display: flex;
   align-items: center;
@@ -25,19 +21,19 @@
 }
 
 .circle-big {
-  height: 60px;
-  width: 60px;
+  height: 4.167vw;
+  width: 4.167vw;
   background-color: transparent;
-  border: 12px solid #fff;
+  border: 0.833vw solid #fff;
   border-radius: 50%;
 }
 
 .circle-small {
-  height: 15px;
-  width: 15px;
+  height: 1.042vw;
+  width: 1.042vw;
   background-color: #fff;
   border-radius: 50%;
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 1.042vw;
+  right: 1.042vw;
 }

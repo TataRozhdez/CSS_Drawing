@@ -1,34 +1,28 @@
-.coffee {
-  width: 400px;
-  height: 600px;
-  margin-bottom: 5.5vw;
-}
-
 .coffee-mug {
   position: relative;
-  width: 150px;
-  height: 150px;
+  width: 10.417vw;
+  height: 10.417vw;
   background-color: #3f2616;
   border-radius: 50%;
-  box-shadow: 0px 0px 0px 10px #442918,
-  0 0 0 25px #3c2415,
-  0 0 0 42px #fe9407,
-  0 0 0 65px #feaa3a,
-  0 120px 0 -25px #3c2415,
-  100px 70px 0 -25px #3c2415,
-  80px 140px 0 -10px #3c2415,
-  0px 210px 0 -55px #3c2415,
-  20px 250px 0 -65px #3c2415;
+  box-shadow: 0 0 0 0.694vw #442918,
+  0 0 0 1.736vw #3c2415,
+  0 0 0 2.917vw #fe9407,
+  0 0 0 4.514vw #feaa3a,
+  0 8.333vw 0 -1.736vw #3c2415,
+  6.944vw 4.861vw 0 -1.736vw #3c2415,
+  5.556vw 9.722vw 0 -0.694vw #3c2415,
+  0px 14.583vw 0 -3.819vw #3c2415,
+  1.389vw 17.361vw 0 -4.514vw #3c2415;
 }
 
 .coffee-mug::before {
   content: '';
   position: absolute;
-  height: 75px;
-  width: 60px;
+  height: 5.208vw;
+  width: 4.167vw;
   background-color: #e49934;
-  top: -85px;
-  right: -75px;
-  border-radius: 5px;
+  top: -5.903vw;
+  right: -5.208vw;
+  border-radius: 0.347vw;
   transform: rotate(45deg);
 }

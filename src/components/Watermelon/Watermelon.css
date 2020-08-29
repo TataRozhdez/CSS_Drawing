@@ -1,26 +1,26 @@
 .watermelon {
-  background-color: #fff;
+  background-color: #ffff52;
 }
 
 .watermelon-img {
-  width: 320px;
-  height: 160px;
+  width: 22.222vw;
+  height: 11.111vw;
   background-color: #fd6c64;
-  border-left: 20px solid #5af5b6;
-  border-bottom: 20px solid #5af5b6;
-  border-right: 20px solid #5af5b6;
-  border-bottom-left-radius: 200px;
-  border-bottom-right-radius: 200px;
+  border-left: 1.389vw solid #5af5b6;
+  border-bottom: 1.389vw solid #5af5b6;
+  border-right: 1.389vw solid #5af5b6;
+  border-bottom-left-radius: 13.889vw;
+  border-bottom-right-radius: 13.889vw;
   text-align: center;
 }
 
 .seeds {
-  width: 10px;
-  height: 10px;
+  width: 0.694vw;
+  height: 0.694vw;
   background-color: #262626;
   border-radius: 50%;
   display: inline-block;
-  margin: 17px;
+  margin: 1.181vw;
 }
 
 .seeds:nth-child(7),

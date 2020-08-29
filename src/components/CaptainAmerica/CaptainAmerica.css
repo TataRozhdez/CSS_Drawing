@@ -1,10 +1,10 @@
 .captain {
-  background-color: #002bb2;
+  background-color: #7292f7;
 }
 
 .c3 {
-  width: 260px;
-  height: 260px;
+  width: 18.056vw;
+  height: 18.056vw;
   background-color: #ff4040;
   border-radius: 50%;
   display: flex;
@@ -13,8 +13,8 @@
 }
 
 .c2 {
-  width: 210px;
-  height: 210px;
+  width: 14.583vw;
+  height: 14.583vw;
   background-color: #fff;
   border-radius: 50%;
   display: flex;
@@ -23,8 +23,8 @@
 }
 
 .c1 {
-  width: 150px;
-  height: 150px;
+  width: 10.417vw;
+  height: 10.417vw;
   background-color: #ff4040;
   border-radius: 50%;
   display: flex;
@@ -33,8 +33,8 @@
 }
 
 .center {
-  width: 100px;
-  height: 100px;
+  width: 6.944vw;
+  height: 6.944vw;
   background-color: #306fd4;
   border-radius: 50%;
   position: relative;
@@ -42,27 +42,27 @@
 
 .arrow {
   position: absolute;
-  border-top: 35px solid #fff;
-  border-left: 48px solid transparent;
-  border-right: 48px solid transparent;
-  border-bottom: 48px solid transparent;
+  border-top: 2.431vw solid #fff;
+  border-left: 3.333vw solid transparent;
+  border-right: 3.333vw solid transparent;
+  border-bottom: 3.333vw solid transparent;
   width: 0;
   height: 0;
 }
 
 .top {
-  top: 35px;
-  left: 2px;
+  top: 2.431vw;
+  left: 0.139vw;
 }
 
 .left {
-  top: 16px;
-  left: -24px;
+  top: 1.111vw;
+  left: -1.667vw;
   transform: rotate(72deg);
 }
 
 .right {
-  top: 16px;
-  left: 24px;
+  top: 1.111vw;
+  left: 1.667vw;
   transform: rotate(-72deg);
 }

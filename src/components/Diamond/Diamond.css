@@ -1,11 +1,15 @@
-.diamond {
-  width: 300px;
-}
 .diamond-img {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 13.889vw;
+  height: 13.889vw;
   transform: rotate(45deg);
+}
+
+.verge:not(:nth-child(1)) {
+  border-top: 3.472vw solid #1fb67c;
+  border-right: 3.472vw solid #20bc7d;
+  border-bottom: 3.472vw solid #26c893;
+  border-left: 3.472vw solid #55ddb9;
 }
 
 .verge:nth-child(1) {
@@ -14,10 +18,10 @@
   left: 0;
   width: 0;
   height: 0;
-  border-top: 50px solid transparent;
-  border-right: 50px solid #1fb67c;
-  border-bottom: 50px solid #20bc7d;
-  border-left: 50px solid transparent;
+  border-top: 3.472vw solid transparent;
+  border-right: 3.472vw solid #1fb67c;
+  border-bottom: 3.472vw solid #20bc7d;
+  border-left: 3.472vw solid transparent;
 }
 
 .verge:nth-child(2) {
@@ -26,10 +30,6 @@
   left: 50%;
   width: 0;
   height: 0;
-  border-top: 50px solid #1fb67c;
-  border-right: 50px solid #20bc7d;
-  border-bottom: 50px solid #26c893;
-  border-left: 50px solid #55ddb9;
 }
 
 .verge:nth-child(3) {
@@ -38,10 +38,6 @@
   left: 0;
   width: 0;
   height: 0;
-  border-top: 50px solid #1fb67c;
-  border-right: 50px solid #20bc7d;
-  border-bottom: 50px solid #26c893;
-  border-left: 50px solid #55ddb9;
 }
 
 .verge:nth-child(4) {
@@ -50,8 +46,4 @@
   left: 50%;
   width: 0;
   height: 0;
-  border-top: 50px solid #1fb67c;
-  border-right: 50px solid #20bc7d;
-  border-bottom: 50px solid #26c893;
-  border-left: 50px solid #55ddb9;
 }

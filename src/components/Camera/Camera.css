@@ -1,13 +1,9 @@
-.camera {
-
-}
-
 .camera-img {
-  width: 205px;
-  height: 155px;
+  width: 14.236vw;
+  height: 10.764vw;
   background-color: #D6D6D6;
-  border-radius: 15px;
-  box-shadow: 0 10px 15px -13px #000000;
+  border-radius: 1.042vw;
+  box-shadow: 0 0.694vw 1.042vw -0.903vw #000000;
   position: relative;
   display: flex;
   justify-content: center;
@@ -15,10 +11,10 @@
 }
 
 .lens {
-  width: 125px;
-  height: 125px;
+  width: 8.681vw;
+  height: 8.681vw;
   background-color: #f5f5f5;
-  box-shadow: 0 8px 0 0 #c0c0c0;
+  box-shadow: 0 0.556vw 0 0 #c0c0c0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,8 +22,8 @@
 }
 
 .inner-lens {
-  width: 105px;
-  height: 105px;
+  width: 7.292vw;
+  height: 7.292vw;
   background-color: #00695c;
   display: flex;
   justify-content: center;
@@ -36,30 +32,30 @@
 }
 
 .inner-lens-2 {
-  border-top: 31px solid #008978;
-  border-right: 31px solid #4db6ac;
-  border-bottom: 31px solid #80cbc4;
-  border-left: 31px solid #26a69a;
+  border-top: 2.153vw solid #008978;
+  border-right: 2.153vw solid #4db6ac;
+  border-bottom: 2.153vw solid #80cbc4;
+  border-left: 2.153vw solid #26a69a;
   border-radius: 50%;
 }
 
 .flash {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 1.389vw;
+  height: 1.389vw;
   background-color: #fff;
   border-radius: 50%;
-  box-shadow: 0 4px 0 0 #c0c0c0;
-  right: 15px;
-  top: 15px;
+  box-shadow: 0 0.278vw 0 0 #c0c0c0;
+  right: 1.042vw;
+  top: 1.042vw;
 }
 
 .button {
   position: absolute;
-  width: 40px;
-  height: 5px;
+  width: 2.778vw;
+  height: 0.347vw;
   background-color: #009587;
-  border-radius: 60px;
-  left: 16px;
-  top: -5px;
+  border-radius: 4.167vw;
+  left: 1.111vw;
+  top: -0.347vw;
 }

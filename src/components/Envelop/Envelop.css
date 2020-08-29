@@ -1,16 +1,16 @@
 .envelop {
-  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(254,215,219,0.5) 100%);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(254,215,219,0.1) 100%);
   width: 100vw;
-  height: 400px;
+  height: 40vw;
 }
 
 .card {
   width: 0;
   height: 0;
-  border-top: 100px solid #eee;
-  border-right: 170px solid #ddd;
-  border-bottom: 100px solid #ccc;
-  border-left: 170px solid #ccc;
+  border-top: 13.021vw solid #eee;
+  border-right: 22.135vw solid #ddd;
+  border-bottom: 13.021vw solid #ccc;
+  border-left: 22.135vw solid #ccc;
 }
 
 .heart {
@@ -63,5 +63,12 @@
   }  
   100% { 
     transform: translate(-50%,-50%) rotate(45deg) scale(1); 
+  }
+}
+
+@media (max-width: 426px) {
+  .heart {
+    width: 15px;
+    height: 15px;
   }
 }
