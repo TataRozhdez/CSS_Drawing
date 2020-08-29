@@ -16,6 +16,8 @@ import { Watermelon } from './components/Watermelon/Watermelon'
 import { Donut } from './components/Donut/Donut'
 import { Figma } from './components/Figma/Figma'
 import { Beaver } from './components/Beaver/Beaver'
+import { Shelf } from './components/Shelf/Shelf'
+import { Homer } from './components/Homer/Homer'
 
 function App() {
   return (
@@ -41,6 +43,8 @@ function App() {
         <Donut />
         <Figma /> 
         <Beaver />
+        <Homer />
+        <Shelf />
       </div>
     </div>
   )
