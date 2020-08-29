@@ -6,10 +6,9 @@
   width: 300px;
   height: 300px;
   background-color: #fff;
-  border: 12px solid black;
+  border: 7px solid black;
   border-radius: 50%;
   position: relative;
-  z-index: 20;
 }
 
 .eye-left {
@@ -22,7 +21,6 @@
   border-radius: 115px 115px 0 0;
   transform: rotate(20deg);
   overflow: hidden;
-  z-index: 3;
 }
 
 .eye-right {
@@ -35,7 +33,6 @@
   border-radius: 115px 115px 0 0;
   transform: rotate(-20deg);
   overflow: hidden;
-  z-index: 3;
 }
 
 .left-ball {
@@ -47,7 +44,6 @@
   top: 15px;
   left: 33%;
   border-radius: 50%;
-  z-index: 4;
 }
 
 .right-ball {
@@ -59,7 +55,6 @@
   top: 15px;
   right: 33%;
   border-radius: 50%;
-  z-index: 4;
 }
 
 .nose {
@@ -81,18 +76,18 @@
   border-bottom: 10px solid #000;
   border-radius: 50%;
   top: 165px;
-  left: 100px;
+  left: 37%;
   transform: translateX(-37%);
 }
 
 .mouth::after {
   content: '';
-  width: 60px;
-  height: 50px;
+  width: 100%;
+  height: 100%;
   border-bottom: 10px solid #000;
   position: absolute;
   border-radius: 50%;
-  top: -21%;
+  top: 0;
   left: 100%;
 }
 
@@ -101,11 +96,11 @@
   position: absolute;
   width: 130px;
   height: 130px;
-  background-color: #000;
   border-radius: 50%;
-  top: -30px;
+  top: 0px;
   right: -35px;
-  z-index: -1;
+  border-top: 20px solid #000;
+  transform: rotate(55deg);
 }
 
 .ear-left {
@@ -113,11 +108,11 @@
   position: absolute;
   width: 130px;
   height: 130px;
-  background-color: #000;
   border-radius: 50%;
-  top: -30px;
+  top: 0px;
   left: -35px;
-  z-index: 1;
+  border-top: 20px solid #000;
+  transform: rotate(-55deg);
 }
 
 

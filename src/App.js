@@ -12,6 +12,10 @@ import { GitLogo } from './components/GitLogo/GitLogo'
 import { Google } from './components/Google/Google'
 import { Instagram } from './components/Instagram/Instagram'
 import { Panda } from './components/Panda/Panda'
+import { Watermelon } from './components/Watermelon/Watermelon'
+import { Donut } from './components/Donut/Donut'
+import { Figma } from './components/Figma/Figma'
+import { Beaver } from './components/Beaver/Beaver'
 
 function App() {
   return (
@@ -33,6 +37,10 @@ function App() {
         <Google />
         <Instagram />
         <Panda />
+        <Watermelon />
+        <Donut />
+        <Figma /> 
+        <Beaver />
       </div>
     </div>
   )

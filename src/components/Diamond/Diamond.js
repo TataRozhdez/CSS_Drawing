@@ -5,10 +5,10 @@ export const Diamond = () => {
   return (
     <div className='diamond block grid-square'>
       <div className="diamond-img">
-        <span />
-        <span />
-        <span />
-        <span />
+        <span className="verge"/>
+        <span className="verge" />
+        <span className="verge" />
+        <span className="verge" />
       </div>
     </div>
   )
