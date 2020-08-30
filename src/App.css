@@ -1,3 +1,5 @@
+@import './animation.css';
+
 @font-face {
   font-family: "Archistico_Bold";
   src: url("./fonts/Archistico_Bold.ttf");
@@ -57,6 +59,10 @@ h2 {
   width: 27.778vw;
   height: 27.778vw;
   border-radius: 10%;
+}
+
+.grid-square:hover {
+  animation: 1s ease-in alternate both running hover;
 }
 
 @media (max-width: 426px) {

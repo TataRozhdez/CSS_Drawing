@@ -1,3 +1,9 @@
+@import '../../animation.css';
+
+.gear {
+  background-color: #ffdfa5;
+}
+
 .gear-img {
   width: 7.639vw;
   height: 7.639vw;
@@ -9,7 +15,7 @@
 .gear-inner {
   width: 3.819vw;
   height: 3.819vw;
-  background-color: rgb(254,215,219);
+  background-color: #ffdfa5;
   border-radius: 50%;
   position: absolute;
   top: 50%;
@@ -28,10 +34,59 @@
   transform: translate(-50%, -50%);
 }
 
+.bar:nth-child(1) {
+  transform: translate(-50%, -50%) rotate(0deg);
+  animation: gear-move3 3s linear 1s infinite running;
+}
+.gear:hover .bar:nth-child(1) {
+  animation: gear-move3-hover 3s linear infinite running;
+}
+
 .bar:nth-child(2) {
   transform: translate(-50%, -50%) rotate(60deg);
+  animation: gear-move1 3s linear 1s infinite running;
+}
+.gear:hover .bar:nth-child(2) {
+  animation: gear-move1-hover 3s linear infinite running;
 }
 
 .bar:nth-child(3) {
   transform: translate(-50%, -50%) rotate(-60deg);
+  animation: gear-move2 3s linear 1s infinite running;
+}
+.gear:hover .bar:nth-child(3) {
+  animation: gear-move2-hover 3s linear infinite running;
+}
+
+@keyframes gear-move1 {
+  100% {
+    transform: translate(-50%, -50%) rotate(-120deg);
+  }
+}
+@keyframes gear-move2 {
+  100% {
+    transform: translate(-50%, -50%) rotate(-240deg);
+  }
+}
+@keyframes gear-move3 {
+  100% {
+    transform: translate(-50%, -50%) rotate(-180deg);
+  }
+}
+
+
+@keyframes gear-move1-hover {
+  100% {
+    transform: translate(-50%, -50%) rotate(420deg);
+  }
+}
+@keyframes gear-move2-hover {
+  100% {
+    transform: translate(-50%, -50%) rotate(300deg);
+  }
+}
+@keyframes gear-move3-hover {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }

@@ -1,0 +1,14 @@
+@keyframes wind {
+  50% {
+    transform: rotate(1.8deg);
+  } 
+  100%{
+    transform: rotate(-1.2deg);
+  }
+}
+
+@keyframes hover {
+  100%{
+    transform: scale(1.1) rotate(0deg);
+  }
+}

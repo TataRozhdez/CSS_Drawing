@@ -12,6 +12,7 @@
   border-bottom-left-radius: 13.889vw;
   border-bottom-right-radius: 13.889vw;
   text-align: center;
+  overflow: hidden;
 }
 
 .seeds {
@@ -28,4 +29,25 @@
 .seeds:nth-child(13),
 .seeds:nth-child(16) {
   opacity: 0;
+}
+
+@media (max-width: 426px) {
+  .seeds {
+    margin: 0.706vw;
+  }
+
+  .seeds:nth-child(7),
+  .seeds:nth-child(12),
+  .seeds:nth-child(13) {
+    opacity: 1;
+  }
+
+  .seeds:nth-child(1),
+  .seeds:nth-child(8),
+  .seeds:nth-child(9),
+  .seeds:nth-child(10),
+  .seeds:nth-child(11),
+  .seeds:nth-child(15) {
+    opacity: 0;
+  }
 }

@@ -1,30 +1,30 @@
-/* .shelf {
-  background-color: #ecd590;
-  width: 600px;
-  height: 500px;
-} */
+@import '../../animation.css';
 
 .shelf-img {
-  width: 520px;
-  height: 20px;
+  width: 36.111vw;
+  height: 1.389vw;
   background-color: #5a3f21;
   position: relative;
 }
 
+.shelf-img:hover {
+  animation: 1s ease-in alternate both running hover;
+}
+
 .clock {
-  width: 110px;
-  height: 110px;
+  width: 7.639vw;
+  height: 7.639vw;
   background-color: #e9e6c9;
-  border: 10px solid #5aa668;
+  border: 0.694vw solid #5aa668;
   border-radius: 50%;
   position: absolute;
-  left: 30px;
+  left: 2.083vw;
   top: -590%;
 }
 
 .knot {
-  width: 10px;
-  height: 10px;
+  width: 0.694vw;
+  height: 0.694vw;
   background-color: #9d374f;
   border-radius: 50%;
   position: absolute;
@@ -35,8 +35,8 @@
 }
 
 .hand {
-  width: 4px;
-  height: 40px;
+  width: 0.278vw;
+  height: 2.778vw;
   background-color: #47321a;
   position: absolute;
   left: 50%;
@@ -46,93 +46,94 @@
 }
 
 .hour-hand {
-  height: 30px;
-  transform: translate(-50%, -100%) rotate(45deg);
+  height: 2.083vw;
+  transform: translate(-50%, -100%) rotate(-45deg);
 }
 
 .min-hand {
-  height: 35px;
-  width: 3px;
+  height: 2.431vw;
+  width: 0.208vw;
   transform: translate(-50%, -100%) rotate(160deg);
 }
 
 .sec-hand {
-  height: 42px;
-  width: 2px;
-  transform: translate(-50%, -100%) rotate(-40deg);
+  height: 2.917vw;
+  width: 0.139vw;
+  transform: translate(-50%, -100%) rotate(40deg);
+  animation: timing 60s infinite steps(60);
 }
 
 .clock-ear-left {
-  height: 30px;
-  width: 60px;
+  height: 2.083vw;
+  width: 4.167vw;
   background-color: #5aa668;
   position: absolute;
-  left: -38px;
+  left: -2.639vw;
   top: -20%;
-  border-radius: 90px 90px 0 0;
+  border-radius: 6.250vw 6.250vw 0 0;
   transform: rotate(-50deg);
 }
 
 .clock-ear-left::after {
   content: '';
-  height: 8px;
-  width: 15px;
+  height: 0.556vw;
+  width: 1.042vw;
   background-color: #9d374f;
   position: absolute;
-  left: 20px;
-  top: -5px;
-  border-radius: 90px 90px 0 0;
+  left: 1.389vw;
+  top: -0.347vw;
+  border-radius: 6.250vw 6.250vw 0 0;
 }
 
 .clock-ear-right {
-  height: 30px;
-  width: 60px;
+  height: 2.083vw;
+  width: 4.167vw;
   background-color: #5aa668;
   position: absolute;
-  right: -38px;
+  right: -2.639vw;
   top: -20%;
-  border-radius: 90px 90px 0 0;
+  border-radius: 6.250vw 6.250vw 0 0;
   transform: rotate(50deg);
 }
 
 .clock-ear-right::after {
   content: '';
-  height: 8px;
-  width: 15px;
+  height: 0.556vw;
+  width: 1.042vw;
   background-color: #9d374f;
   position: absolute;
-  right: 20px;
-  top: -5px;
-  border-radius: 90px 90px 0 0;
+  right: 1.389vw;
+  top: -0.347vw;
+  border-radius: 6.250vw 6.250vw 0 0;
 }
 
 .clock-foot-left {
-  height: 30px;
-  width: 10px;
+  height: 2.083vw;
+  width: 0.694vw;
   background-color: #5a3f21;
   position: absolute;
-  left: -3px;
-  bottom: -24px;
+  left: -0.208vw;
+  bottom: -1.667vw;
   transform: rotate(30deg);
 }
 
 .clock-foot-right {
-  height: 30px;
-  width: 10px;
+  height: 2.083vw;
+  width: 0.694vw;
   background-color: #5a3f21;
   position: absolute;
-  right: -3px;
-  bottom: -24px;
+  right: -0.208vw;
+  bottom: -1.667vw;
   transform: rotate(-30deg);
 }
 
 .book-1 {
-  width: 40px;
-  height: 170px;
+  width: 2.778vw;
+  height: 11.806vw;
   position: absolute;
   background-color: #9d374f;
-  left: 210px;
-  top:-170px;
+  left: 14.583vw;
+  top:-11.806vw;
 }
 
 .book-1::before,
@@ -140,11 +141,11 @@
 .book-3::before {
   content: '';
   width: 100%;
-  height: 20px;
+  height: 1.389vw;
   position: absolute;
   background-color: #e9e6c9;
   left: 0;
-  top: 20px;
+  top: 1.389vw;
 }
 
 .book-1::after,
@@ -161,29 +162,29 @@
 }
 
 .book-2 {
-  width: 40px;
-  height: 195px;
+  width: 2.778vw;
+  height: 13.542vw;
   position: absolute;
   background-color: #e86830;
-  left: 250px;
-  top: -195px;
+  left: 17.361vw;
+  top: -13.542vw;
 }
 
 .book-3 {
-  width: 40px;
-  height: 180px;
+  width: 2.778vw;
+  height: 12.500vw;
   position: absolute;
   background-color: #5aa668;
-  left: 290px;
-  top: -180px;
+  left: 20.139vw;
+  top: -12.500vw;
 }
 
 .cactus {
-  width: 100px;
-  height: 180px;
+  width: 6.944vw;
+  height: 12.500vw;
   position: absolute;
-  left: 380px;
-  top: -180px;
+  left: 26.389vw;
+  top: -12.500vw;
 }
 
 .pot {
@@ -218,7 +219,7 @@
   position: absolute;
   bottom: 50%;
   left: 5%;
-  border-radius: 50px 50px 0 0;
+  border-radius: 3.472vw 3.472vw 0 0;
 }
 
 .plant-right {
@@ -228,5 +229,11 @@
   position: absolute;
   bottom: 50%;
   right: 5%;
-  border-radius: 50px 50px 0 0;
+  border-radius: 3.472vw 3.472vw 0 0;
+}
+
+@keyframes timing {
+  100%{
+    transform: translate(-50%, -100%) rotate(360deg);
+  }
 }
