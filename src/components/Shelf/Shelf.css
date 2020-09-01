@@ -1,14 +1,8 @@
-@import '../../animation.css';
-
 .shelf-img {
   width: 36.111vw;
   height: 1.389vw;
   background-color: #5a3f21;
   position: relative;
-}
-
-.shelf-img:hover {
-  animation: 1s ease-in alternate both running hover;
 }
 
 .clock {

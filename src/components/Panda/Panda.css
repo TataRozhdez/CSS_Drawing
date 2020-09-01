@@ -21,6 +21,7 @@
   border-radius: 7.986vw 7.986vw 0 0;
   transform: rotate(20deg);
   overflow: hidden;
+  animation: p-eye-left 4s linear infinite alternate;  
 }
 
 .eye-right {
@@ -33,6 +34,7 @@
   border-radius: 7.986vw 7.986vw 0 0;
   transform: rotate(-20deg);
   overflow: hidden;
+  animation: p-eye-right 4s linear infinite alternate;
 }
 
 .left-ball {
@@ -44,6 +46,7 @@
   top: 1.042vw;
   left: 33%;
   border-radius: 50%;
+  animation: p-left-ball 4s linear infinite alternate;
 }
 
 .right-ball {
@@ -55,6 +58,7 @@
   top: 1.042vw;
   right: 33%;
   border-radius: 50%;
+  animation: p-right-ball 4s linear infinite alternate;
 }
 
 .nose {
@@ -67,17 +71,19 @@
   top: 53%;
   left: 50%;
   transform: translate(-50%);
+  animation: p-nose 4s linear infinite alternate;
 }
 
 .mouth {
   position: absolute;
-  width: 4.167vw;
-  height: 3.472vw;
+  width: 5.656vw;
+  height: 6.250vw;
   border-bottom: 0.694vw solid #000;
   border-radius: 50%;
-  top: 11.458vw;
-  left: 37%;
-  transform: translateX(-37%);
+  top: 9.097vw;
+  left: 30%;
+  transform: translateX(-30%);
+  animation: p-mouth 4s linear infinite alternate;
 }
 
 .mouth::after {
@@ -101,6 +107,7 @@
   right: -2.431vw;
   border-top: 1.389vw solid #000;
   transform: rotate(55deg);
+  animation: panda-ear-right 4s linear infinite alternate;
 }
 
 .ear-left {
@@ -113,6 +120,80 @@
   left: -2.431vw;
   border-top: 1.389vw solid #000;
   transform: rotate(-55deg);
+  animation: panda-ear-left 4s linear infinite alternate;
 }
 
+@keyframes panda-ear-left {
+  100% {
+    transform: rotate(-55deg) scale(0.75);
+  }
+}
 
+@keyframes panda-ear-right {
+  100% {
+    transform: rotate(55deg) scale(0.75);
+  }
+}
+
+@keyframes p-eye-left {
+  100% {
+    width: 6.48vw;
+    height: 4.8vw;
+    left: 12%;
+    top: 23%;
+    border-radius: 7.986vw 7.986vw 3.2vw 3.2vw;
+    transform: rotate(12deg);
+  }
+}
+
+@keyframes p-eye-right {
+  100% {
+    width: 6.48vw;
+    height: 4.8vw;
+    right: 12%;
+    top: 23%;
+    border-radius: 7.986vw 7.986vw 3.2vw 3.2vw;
+    transform: rotate(-12deg);
+  }
+}
+
+@keyframes p-left-ball {
+  100% {
+    width: 3.72vw;
+    height: 3.72vw;
+    border: 0.625vw solid #fff;
+    top: 0.694vw;
+    left: 28%;
+  }
+}
+
+@keyframes p-right-ball {
+  100% {
+    width: 3.72vw;
+    height: 3.72vw;
+    border: 0.625vw solid #fff;
+    top: 0.694vw;
+    right: 28%;
+  }
+}
+
+@keyframes p-nose {
+  100% {
+    width: 2.51vw;
+    height: 2.51vw;
+    top: 50%;
+  }
+}
+
+@keyframes p-mouth {
+  100% {
+    position: absolute;
+    width: 4.167vw;
+    height: 3.472vw;
+    border-bottom: 0.694vw solid #000;
+    border-radius: 50%;
+    top: 11.458vw;
+    left: 36%;
+    transform: translateX(-37%);
+  }
+}

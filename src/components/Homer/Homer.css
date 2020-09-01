@@ -58,6 +58,7 @@
   border-radius: 50%;
   left: 8.333vw;
   top: 7.639vw;
+  animation: 3s linear 1s infinite running h-right-eye;
 }
 
 .pupil-right {
@@ -68,6 +69,7 @@
   border-radius: 50%;
   left: 2.431vw;
   top: 2.778vw;
+  animation: right-eye-pupil 1s infinite alternate;
 }
 
 .l-eye {
@@ -79,6 +81,7 @@
   border-radius: 50%;
   left: 4.167vw;
   top: 7.986vw;
+  animation: 3s linear 1s infinite running h-left-eye;
 }
 
 .pupil-left {
@@ -89,6 +92,7 @@
   border-radius: 50%;
   left: 1.736vw;
   top: 2.778vw;
+  animation: left-eye-pupil 1s infinite alternate;
 }
 
 .f-side1 {
@@ -258,4 +262,44 @@
   top: -0.208vw;
   border-bottom: 0.069vw solid #000;
   border-bottom-left-radius: 10%;
+}
+
+@keyframes right-eye-pupil {
+  50% {
+    left: 3.403vw;
+  }
+  100% {
+    left: 2.431vw;
+  }
+}
+
+@keyframes left-eye-pupil {
+  50% {
+    left: 2.403vw;
+  }
+  100% {
+    left: 1.736vw;
+  }
+}
+
+@keyframes h-left-eye {
+  100% {
+    width: 5.208vw;
+    height: 0.139vw;
+    border: 0.069vw solid #000;
+    left: 4.167vw;
+    top: 10.6vw;
+    overflow: hidden;
+  }
+}
+
+@keyframes h-right-eye {
+  100% {
+    width: 5.208vw;
+    height: 0.139vw;
+    border: 0.069vw solid #000;
+    left: 4.167vw;
+    top: 10.6vw;
+    overflow: hidden;
+  }
 }

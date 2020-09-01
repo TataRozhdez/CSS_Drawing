@@ -13,6 +13,7 @@
   border-bottom-right-radius: 13.889vw;
   text-align: center;
   overflow: hidden;
+  animation: w-body-move 5s linear infinite alternate;
 }
 
 .seeds {
@@ -22,32 +23,125 @@
   border-radius: 50%;
   display: inline-block;
   margin: 1.181vw;
+  position: relative;
+
+  animation: w-seeds-move 5s linear infinite alternate;
 }
 
-.seeds:nth-child(7),
-.seeds:nth-child(12),
-.seeds:nth-child(13),
-.seeds:nth-child(16) {
-  opacity: 0;
+.seed1::before,
+.seed1::after,
+.seed2::before,
+.seed2::after,
+.seed3::before,
+.seed3::after,
+.seed4::before,
+.seed4::after,
+.seed5::before,
+.seed5::after {
+  content: '';
+  width: 0.694vw;
+  height: 0.694vw;
+  background-color: #262626;
+  border-radius: 50%;
+}
+
+.seed1::before {
+  position: absolute;
+  left: 2.153vw;
+  top: 2.083vw;
+}
+
+.seed1::after {
+  position: absolute;
+  left: 2.083vw;
+  top: 4.514vw;
+}
+
+.seed2::before {
+  position: absolute;
+  left: 2.083vw;
+  top: 3.125vw;
+}
+
+.seed2::after {
+  position: absolute;
+  left: 2.778vw;
+  top: 6.111vw;
+}
+
+.seed3::before {
+  position: absolute;
+  left: 1.042vw;
+  top: 1.528vw;
+}
+
+.seed3::after {
+  position: absolute;
+  left: 4.861vw;
+  top: 1.806vw;
+}
+
+.seed4::before {
+  position: absolute;
+  left: -1.042vw;
+  top: 4.583vw;
+}
+
+.seed4::after {
+  position: absolute;
+  left: 4.861vw;
+  top: 1.806vw;
+}
+
+.seed5::before {
+  position: absolute;
+  left: -1.042vw;
+  top: 4.583vw;
+}
+
+.seed5::after {
+  position: absolute;
+  left: 0.972vw;
+  top: 3.125vw;
 }
 
 @media (max-width: 426px) {
   .seeds {
     margin: 0.706vw;
   }
+}
 
-  .seeds:nth-child(7),
-  .seeds:nth-child(12),
-  .seeds:nth-child(13) {
-    opacity: 1;
+@keyframes w-body-move {
+  20% {
+    transform: rotate(-5deg);
+    text-align: left;
   }
+  40% {
+    transform: rotate(0deg);
+  }
+  50% {
+    text-align: right;
+  }
+  70% {
+    transform: rotate(50deg);
+  }
+  100% {
+    transform: rotate(100deg);
+    text-align: right;
+  }
+}
 
-  .seeds:nth-child(1),
-  .seeds:nth-child(8),
-  .seeds:nth-child(9),
-  .seeds:nth-child(10),
-  .seeds:nth-child(11),
-  .seeds:nth-child(15) {
-    opacity: 0;
+@keyframes w-seeds-move {
+  20% {
+    margin: 1.4vw;
+  }
+  40% {
+    margin: 1vw;    
+  }
+  70% {
+    margin: .4vw
+  }
+  100% {
+    margin: .1vw;
   }
 }
