@@ -10,6 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: 5s infinite running captain-1;
 }
 
 .c2 {
@@ -20,6 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: 4s infinite running captain-2;
 }
 
 .c1 {
@@ -30,6 +32,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: 3s 3s infinite running captain-1;  
 }
 
 .center {
@@ -65,4 +68,16 @@
   top: 1.111vw;
   left: 1.667vw;
   transform: rotate(-72deg);
+}
+
+@keyframes captain-1 {
+  100% {
+    background-color: #fff;
+  }
+}
+
+@keyframes captain-2 {
+  100% {
+    background-color: #ff4040;
+  }
 }
